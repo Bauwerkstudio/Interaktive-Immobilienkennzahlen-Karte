@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Interaktive Weltkarte</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    <div id="search-bar">
+        <input type="text" id="search-box" placeholder="Suche nach einem Ort...">
+        <button onclick="searchLocation()">Suchen</button>
+    </div>
+    <div id="map" style="height: 600px;"></div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
